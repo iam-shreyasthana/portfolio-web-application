@@ -3,7 +3,7 @@ import "./recentWork.css";
 
 const recentWork = () => {
   return (
-    <div>recentWork</div>
+    <section id='recentWork'>Work</section>
   )
 }
 

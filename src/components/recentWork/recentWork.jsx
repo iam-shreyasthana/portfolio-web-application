@@ -1,10 +1,10 @@
 import React from 'react';
 import "./recentWork.css";
 
-const recentWork = () => {
+const RecentWork = () => {
   return (
     <section id='recentWork'>Work</section>
   )
 }
 
-export default recentWork
+export default RecentWork

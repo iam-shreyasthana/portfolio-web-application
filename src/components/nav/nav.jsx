@@ -5,17 +5,37 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {GoBook} from 'react-icons/go';
 import {MdOutlineWorkOutline} from 'react-icons/md';
 import {AiOutlineMessage} from 'react-icons/ai';
+import { useState } from 'react';
 
-const nav = () => {
+
+const Nav = () => {
+
+  const [activeNav, setActiveNav] = useState('#');
+
   return (
     <nav>
-      <a href='#'><BiHome /></a>
-      <a href='#about'><AiOutlineUser /></a>
-      <a href='#experience'><GoBook /></a>
-      <a href='#recentWork'><MdOutlineWorkOutline /></a>
-      <a href='#contact'><AiOutlineMessage /></a>
+      <a href='#' 
+        onClick={() => setActiveNav('#')}
+        className= {activeNav === '#' ? 'active' : ''}><BiHome />
+      </a>
+      <a href='#about' 
+        onClick={() => setActiveNav('#about')} 
+        className= {activeNav === '#about' ? 'active' : ''}><AiOutlineUser />
+      </a>
+      <a href='#experience'
+        onClick={() => setActiveNav('#experience')}
+        className={activeNav === '#experience' ? 'active' : ''}><GoBook />
+      </a>
+      <a href='#recentWork'
+        onClick={() => setActiveNav('#recentWork')}
+        className={activeNav === '#recentWork' ? 'active' : ''}><MdOutlineWorkOutline />
+      </a>
+      <a href='#contact'
+        onClick={() => setActiveNav('#contact')}
+        className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMessage />
+      </a>
     </nav>
   )
 }
 
-export default nav;
+export default Nav;

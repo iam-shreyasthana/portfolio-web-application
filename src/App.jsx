@@ -6,7 +6,7 @@ import RecentWork from "./components/recentWork/recentWork";
 import Services from "./components/services/services";
 import Experience from "./components/experience/experience";
 import Contact from "./components/contact/contact";
-import Footer from "./components/footer/footer"
+import Footer from "./components/footer/footer";
 
 const App = () => {
   return (
@@ -14,13 +14,13 @@ const App = () => {
         <Header />
         <Nav />
         <About />
-        <RecentWork />
         <Experience />
         <Services />
+        <RecentWork />
         <Contact />
         <Footer />
     </>
   )
 }
 
-export default App
+export default App;

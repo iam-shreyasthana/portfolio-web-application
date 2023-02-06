@@ -1,0 +1,86 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ----- Core To Action Button ----- */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ----- Header Social Buttons ----- */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ----- Me Image ------ */
+
+.me {
+    background: linear-gradient(#FFFBAC, transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+    border-radius: 0 9rem 0 9rem;
+    overflow: hidden;
+    padding: 3rem 2rem 2rem 2rem;
+}
+
+
+/* ----- SCROLL DOWN BUTTON ----- */
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ------ MEDIA Queries (Tabs/Medium Devices) ------ */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+}
+
+/* ------ MEDIA Queries (Mobile/Small Devices) ------ */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}

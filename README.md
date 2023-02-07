@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  <a href="https://iam-shreyasthana.github.io/portfolio-web-application/" target="_blank">Shrey Asthana</a>
 </h2>
 <center>
 

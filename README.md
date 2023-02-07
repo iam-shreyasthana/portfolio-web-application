@@ -1,6 +1,5 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://iam-shreyasthana.github.io/portfolio-web-application/" target="_blank">Shrey Asthana</a>
 </h2>
 
 <div align="center">

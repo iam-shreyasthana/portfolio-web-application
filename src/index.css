@@ -38,10 +38,14 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(./assets/bg-texture.png);
+    background-image: url(./assets/bg.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 /*---------- Styling -----------*/

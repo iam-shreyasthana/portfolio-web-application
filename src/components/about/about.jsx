@@ -33,9 +33,10 @@ const About = () => {
             </article>
           </div>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae 
-          vel beatae natus eveniet ratione temporibus aperiam harum 
-          alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!
+          I am looking for a Job to build my carrier in software industry. I am a student of Information Technology and a keen learner to the subject. 
+          I have hands on experience in Cascading Style Sheets:CSS, C/C++ Programming Language, JavaScript. 
+          Also know basics of database and server handling.
+          And I will give my best performance wherever I will endeavour.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Contact Me</a>

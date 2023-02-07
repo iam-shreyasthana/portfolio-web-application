@@ -12,7 +12,7 @@
 
 </div>
 
-## Built With
+## Developed With
 
 My personal portfolio <a href="https://iam-shreyasthana.github.io/portfolio-web-application/" target="_blank">Shrey Asthana</a> Its features some of my projects and my Resume.<br/>
 
@@ -25,8 +25,12 @@ This project was built using these technologies.
 
 ## Features
 
-**📖 Multi-Page Layout**
+**📖 Stylish Nav Bar**
 
 **🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
 **📱 Fully Responsive**
+
+### Show your support
+
+Give a ⭐ if you like this website!

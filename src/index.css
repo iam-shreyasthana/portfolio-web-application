@@ -45,7 +45,7 @@ body {
     background-image: url(./assets/bg.jpg);
     background-attachment: fixed;
     background-size: 100%;
-    
+    background-blend-mode: color-burn;
 }
 
 /*---------- Styling -----------*/

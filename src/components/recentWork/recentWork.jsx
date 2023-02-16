@@ -28,27 +28,6 @@ const projects = [
     title: 'Exceptional Books',
     github: 'https://github.com/iam-shreyasthana/exceptional-books',
     demo: 'https://exceptional-books-site.netlify.app/'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'No Name',
-    github: 'https://github.com/iam-shreyasthana/minion-translator',
-    demo: 'https://miniontranslatesite.netlify.app/'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'No Name',
-    github: 'https://github.com/iam-shreyasthana/minion-translator',
-    demo: 'https://miniontranslatesite.netlify.app/'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'No Name',
-    github: 'https://github.com/iam-shreyasthana/minion-translator',
-    demo: 'https://miniontranslatesite.netlify.app/'
   }
 ];
 

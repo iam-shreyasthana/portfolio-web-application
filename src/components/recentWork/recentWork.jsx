@@ -3,9 +3,6 @@ import "./recentWork.css";
 import IMG1 from '../../assets/project1.png';
 import IMG2 from '../../assets/project2.png';
 import IMG3 from '../../assets/project3.png';
-import IMG4 from '../../assets/project4.jpg';
-import IMG5 from '../../assets/project5.png';
-import IMG6 from '../../assets/project6.jpg';
 
 const projects = [
   {

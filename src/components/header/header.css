@@ -23,6 +23,7 @@ header {
 
 .header__socials {
     display: flex;
+    font-size: 1.5rem;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
@@ -62,7 +63,7 @@ header {
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 /* ------ MEDIA Queries (Tabs/Medium Devices) ------ */

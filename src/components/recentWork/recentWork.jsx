@@ -45,8 +45,8 @@ const RecentWork = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='recentWork__item-cta'>
-                  <a href={github} className='btn' target='_blank'>GitHub</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={github} className='btn' target='_blank' rel='noopener'>GitHub</a>
+                  <a href={demo} className='btn btn-primary' target='_blank' rel='noopener'>Live Demo</a>
                 </div>
               </article>
             )

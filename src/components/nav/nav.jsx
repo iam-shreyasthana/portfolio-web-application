@@ -14,9 +14,9 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href='#' rel='noopener'
-        onClick={() => setActiveNav('#')}
-        className= {activeNav === '#' ? 'active' : ''}><BiHome />
+      <a href='#header' rel='noopener'
+        onClick={() => setActiveNav('#header')}
+        className= {activeNav === '#header' ? 'active' : ''}><BiHome />
       </a>
       <a href='#about' 
         onClick={() => setActiveNav('#about')} 

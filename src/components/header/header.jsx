@@ -8,7 +8,7 @@ import Type from './type';
 const header = () => {
   return (
     <header>
-      <div className='container header__container'>
+      <div className='container header__container' id="header">
         <h4>Hello I'm</h4>
         <h1>Shrey Asthana</h1>
         <div>

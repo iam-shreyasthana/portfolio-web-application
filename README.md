@@ -17,7 +17,7 @@
 
 ## Developed With
 
-My personal portfolio <a href="https://iam-shreyasthana.github.io/portfolio-web-application/" target="_blank" rel='noopener'>Shrey Asthana</a> Its features some of my projects and my Resume.<br/>
+My personal portfolio <a href="https://iam-shreyasthana.github.io/portfolio-web-application/" target="_blank" rel='noopener' rel="noreferrer">Shrey Asthana</a> Its features some of my projects and my Resume.<br/>
 
 This project was built using these technologies.
 
